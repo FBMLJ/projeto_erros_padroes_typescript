@@ -1,7 +1,6 @@
 export interface ObservacoesMessagemErro{
   descricao: string,
-  label?: string,
-  t(): void 
+  label?: string
 }
 
 export default interface MessageErroPadraoRepresentation {
